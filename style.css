@@ -166,10 +166,12 @@ footer{
 }
 
 .profile-pic{
-    width:150px;
-    height:150px;
+    width:220px;
+    height:220px;
     border-radius:50%;
-    object-fit:cover;
+    object-fit:contain;
+    border:4px solid white;
+
 }
 
 html{
@@ -178,4 +180,13 @@ html{
 
 section{
     padding:60px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.2rem;
 }
